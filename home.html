@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <h1 class="titulo-principal">Aplicación para encriptar Texto</h1>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <h2><img src="imagenes/OracleOne.png" alt="Imagen de Oracle One de Victoria Rios"></h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="ayuda.html">Ayuda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="columns">  <section>
+            <label for="campo-texto">Escribe tu texto aquí:</label>
+            <textarea type="text" id="textoencriptado" class="campo-texto"></textarea>
+            <button class="enviar">Encriptar</button>
+            </section>>
+          <section>
+            <label for="campo-texto">Aqui el texto Encriptado:</label>
+            <textarea id="textoMensaje" class="campo-texto" title="El texto encriptado es:"></textarea>
+            <button class="enviar">DesEncriptar</button>
+          </section> 
+          <section>
+            <label for="campo-texto">Aqui el texto a copiar:</label>
+            <textarea id="textoMensaje" class="campo-texto" title="El texto a copiar es:"></textarea>
+            <button class="enviar">Copiar</button>
+          </section> 
+        </div>
+    </main>
+        <script src ="app.js"></script>    
+    <footer>
+        <h3 class="copyright">&copy Copyright Victoria Helena Rios - 2024</h3>
+    </footer>
+</body>
+</html>

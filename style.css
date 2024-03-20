@@ -1,0 +1,400 @@
+.titulo-principal{
+    padding: 5px, 0, 15px;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 0px 0px 0 0px;
+    font-weight:bold;
+    width: 100%;
+    
+}
+
+.encabezado{
+    width: auto;
+    position: relative;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+  
+ /* @media (max-width: 768px) {
+    img {
+      max-width: 90vw;
+    }
+  }*/
+
+.campo-texto{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    position: relative;
+}
+.campo-texto_contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.campo-texto-informacion {
+    flex: 1;
+    padding: 3 px;
+}
+
+.btn {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: 20px;
+    margin-top: 2rem;
+}
+
+.btn-container:disabled {
+    background: #898989;
+}
+
+.campo-texto {
+    margin: 10px 0 30px 0;
+}
+
+.campo-texto-azul {
+    color: #1875E8;
+}
+
+.textoencriptado {
+    width: 100%;
+    height: 72px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 150%;
+    resize: none;
+}
+
+.container__botones {
+    display: flex;
+    gap: 2em;
+}
+nav{
+    position: absolute;
+    top:120px;
+    right: 300px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.ayuda{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.ayuda li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.ayuda li:hover{
+    border-color:#c78c19;
+}
+
+.ayuda li:active{
+    border-color:#088c19;
+}
+
+.ayuda h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ayuda li:hover h2{
+    font-size: 33px;
+}
+
+.ayuda-descripcion{
+    font-size: 18px;
+}
+
+.partes{
+    line-height: 1.5;
+}
+
+.partes:before{
+    content:"√. ";
+}
+
+.partes:first-child{
+    font-weight: bold;
+}
+
+
+.copyright{
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    bottom: 160px;
+      
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/inferior-logo.png) no-repeat center center fixed; 
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container {
+    width: 500px; 
+    margin: 0 auto; 
+    text-align: center;     
+}
+@media (max-width: 728px){
+.form-container form {
+    text-align: center; 
+  }
+}   
+
+form{
+    margin:0px 10px 30px 20px;
+    padding: 20px 0px 10px 20px;
+    border-radius: 20px;
+}
+
+form label,form legend{
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.input-padron{
+    margin: 0;
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    height: 36px;
+    background-color: #fbfcfd;
+    box-shadow: inset 0 -2px 0 rgba(79,130,189,.1),inset 0 -3px 0 rgba(79,130,189,.4);
+    border: 1px solid #eaeaec;
+    outline: none !important;
+    font-size: 15px;
+    margin: 20px 0 10px;
+    padding: 0 auto;
+    width: 50%;
+    text-align: center;
+    color:#464141;
+}
+
+.checkbox{
+    margin: 0 auto;
+    text-align: center; 
+}
+
+form p{
+    color: rgb(220, 84, 25);
+}
+
+p{
+    color:black;
+}
+
+.test{
+    color: yellow;
+}
+
+p.test{
+    color: orange;
+}
+
+#test{
+    color: pink;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight:bold;
+    color: white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: rgb(159, 140, 116);
+}
+
+table{
+    margin: 40px 40px;
+    caption-side: top;
+    
+
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/* aqui inicia el CSS para home*/
+
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;/* 2 veces el padron del tamaño del navegador*/
+    margin: 1em 0 1em; /*arriba, derecha, abajo, izquierda*/
+    clear:left;
+    /*text-shadow: 2px 2px 10px red; sombra al texto*/
+}
+
+.principal p{
+    margin: 0 0 1em; /*arriba, derecha, abajo, izquierda*/
+}
+
+.principal strong{
+    font-weight: bold; /*peso de la fuente dentro del parrafo principal con etiqueta strong*/
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content:"★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:768px){
+    
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+   
+    .encabezado,.principal{
+        width: auto;
+    }
+   
+}
+.columns {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+   
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        justify-content: center;
+            
+    }
+}
+  
+.columns section {
+    flex: 1 1 auto;
+    width: 25%; 
+    padding: 10px;
+    margin: 5px 85px 20px 0px;
+
+}
+  
+.columns section:last-child {
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.campo-texto {
+    padding: 10px 20px; 
+}
