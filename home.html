@@ -23,25 +23,25 @@
     </header>
     <main class="main">
         <div class="columns">  <section>
-            <label for="campo-texto">Escribe tu texto aquí:</label>
-            <textarea type="text" id="textoencriptado" class="campo-texto"></textarea>
-            <button class="enviar">Encriptar</button>
-            </section>>
-          <section>
-            <label for="campo-texto">Aqui el texto Encriptado:</label>
-            <textarea id="textoMensaje" class="campo-texto" title="El texto encriptado es:"></textarea>
-            <button class="enviar">DesEncriptar</button>
-          </section> 
-          <section>
-            <label for="campo-texto">Aqui el texto a copiar:</label>
-            <textarea id="textoMensaje" class="campo-texto" title="El texto a copiar es:"></textarea>
-            <button class="enviar">Copiar</button>
+            <form action="">
+                <label for="input-texto">Recuerda: solo minusculas sin acentos</label>
+                <input textarea class="campo-texto" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+                      
+                <input class="enviar" type="button" value="Encriptar" id="btnEncriptar">
+                <input class="enviar" type="button" value="DesEncriptar" id="btnDesEncriptar">
+            </form></section> 
+          <section class="msg-box">
+            <label for="input-texto"><br><br>Mensaje Encriptado</label>
+            <input textarea class="campo-texto" type="text" id="msg"></textarea></input>
+            <input class="enviar" type="button" value="Copiar" id="btnCopiar" ></input>
           </section> 
         </div>
+       
     </main>
         <script src ="app.js"></script>    
     <footer>
         <h3 class="copyright">&copy Copyright Victoria Helena Rios - 2024</h3>
     </footer>
 </body>
+  
 </html>
